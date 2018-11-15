@@ -5,9 +5,9 @@ The "distribution" code is the minimized and optimized output
 */
 
 function component() {
-  let element = document.createElement('div');
+  var element = document.createElement('div');
 
-  document.getElementById(id).innerHTML = (<h2>Hello Webpack!</h2>)
+  element.innerHTML = (`<h2>Hello Webpack!</h2>`)
 
   return element;
 }
