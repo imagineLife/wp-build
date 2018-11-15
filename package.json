@@ -2,7 +2,7 @@
   "name": "wp-build",
   "version": "1.0.0",
   "description": "Step-By-Step Webpack Build",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
